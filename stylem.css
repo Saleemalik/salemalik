@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+/* body section strt */
+body{
+    background-image: url(pictures/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+/* header section start */
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'ubuntu',sans-serif;
+    transition: all 0.3s ease;
+}
+.header.sticky{
+    padding: 1px 0;
+    background: crimson;
+}
+
+/* .header .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.header .logo a span{
+    color: crimson;
+    font-size: 37px;
+    transition: 0.3s ease;
+}
+.header.sticky .logo a span{
+    color: #fff;
+    transition: all 0.3s ease;
+} */
+.header ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+/* aboutme section styling */
+.aboutme h1{
+    
+    color: seashell;
+    font-family: 'Poppins',sans-serif;
+    padding: 1rem;
+}
+.aboutme .btn-sec{
+    margin-top: -11px;
+}
+.aboutme .btn-one{
+    background-color: crimson; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* .aboutme .content img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.aboutme .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutme .content img{
+    width: 105%;
+}
+.aboutme .content text{
+    width: 245%;
+} */
+/* .navbar{
+    position: fixed;
+    width: 100%;
+    
+    font-family: 'ubuntu',sans-serif;
+    transition: 0.3s ease;
+    
+} */
+/* Home section styling */
+.home{
+    display: flex;
+    
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'ubuntu',sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 1.8rem;
+}
+.home .home-content .text-2{
+    font-size: 5em;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 2.5rem;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+/* cantact section styling */
+#contact {
+    height: auto;
+    width: 100%;
+}
+
+.contact-details {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.contact-details li {
+padding-bottom: 10px;
+}
+
+#contact input, #contact textarea {
+width: 100%;
+}
+
+
+
+
+#contact .validation {
+color: red;
+display: none;
+margin: 0 0 20px;
+font-weight: 400;
+font-size: 17px;
+}
+  
+/* .contactme{
+    color: seashell;
+    font-family: 'Poppins',sans-serif;
+    padding: 1rem;
+}
+.contactme i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.form-group.success input{
+    border-color: green;
+}
+.form-group.error input{
+    border-color: red;
+}
+.contactme small{
+    visibility: hidden;
+} */
+/* .contactme .success{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+/* #status{
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#status .success{
+    background-color: rgb(21, 219, 21);
+     
+} */
